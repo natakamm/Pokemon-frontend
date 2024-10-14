@@ -1,4 +1,4 @@
-#Pokémon Game
+# Pokémon Game
 The frontend of the Pokémon game is a React application created using Vite. It utilizes React Router for navigation between different pages, providing a seamless user experience.
 
 ### Features
