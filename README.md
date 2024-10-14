@@ -1,4 +1,28 @@
-The frontend of the Pokemon game is a React application that allows players to select a Pokémon from a list of Pokémon fetched from the PokeAPI. The Pokémon are divided by type, and each type has a unique color scheme to match the Pokémon's characteristics. The battle mechanics are based on the selected Pokémon's attributes like HP, Attack, and Defense, making the outcome of each fight determined by the strength of the Pokémon.
+#Pokémon Game
+The frontend of the Pokémon game is a React application created using Vite. It utilizes React Router for navigation between different pages, providing a seamless user experience.
+
+### Features
+#### Homepage:
+
+- Displays a list of available Pokémon retrieved from the PokeAPI.
+- Each Pokémon is clickable and leads to the Pokémon Details Page.
+
+#### Pokémon Details Page:
+
+- Shows detailed information about the selected Pokémon, including stats, types, and abilities.
+- Includes a button to add the Pokémon to the user’s roster.
+
+#### Battle Page:
+
+- Allows users to engage in battles with random Pokémon.
+- Battle dynamics are based on Pokémon stats and types, incorporating type advantages/disadvantages, where the higher stat wins the round.
+- Tracks the user’s wins and losses, assigning points or experience (XP) for each win.
+
+#### Leaderboard Page:
+
+- Displays a leaderboard with the top players based on their scores.
+- Users can enter their name, and their score is persisted in the database after a battle.
+- Includes appropriate handling of form input and validation.
 
 Players also enjoy the immersive experience of Pokémon cries, which play when a Pokémon is selected or during battles. The user is prompted to enter a unique username when playing the game, which gets displayed on the leaderboard after a match. Although there is no real login functionality, the username is used to track the player's performance (wins and losses).
 
